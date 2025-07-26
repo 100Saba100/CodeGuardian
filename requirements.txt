@@ -1,0 +1,4 @@
+bandit
+pylint
+openai
+flask
