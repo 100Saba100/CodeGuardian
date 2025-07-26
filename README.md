@@ -4,16 +4,16 @@ By integrating with version control systems (e.g., GitHub) and CI/CD pipelines, 
 
 Key Features:
 
-AI-based vulnerability detection and remediation advice
+1. AI-based vulnerability detection and remediation advice
 
-Quality and style enforcement aligned with best practices (e.g., PEP8, OWASP)
+2. Quality and style enforcement aligned with best practices (e.g., PEP8, OWASP)
 
-Language support for Python, JavaScript, and more
+3. Language support for Python, JavaScript, and more
 
-GitHub PR integration for inline code review suggestions
+4. GitHub PR integration for inline code review suggestions
 
-Custom rule configuration and severity levels
+5. Custom rule configuration and severity levels
 
-Developer-friendly reports with explainable AI feedback
+6. Developer-friendly reports with explainable AI feedback
 
 Tech Stack: Python, GPT API, static code analyzers (Bandit, ESLint), Flask/FastAPI, GitHub Actions, Docker
