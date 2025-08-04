@@ -2,6 +2,8 @@
 __pycache__/
 *.py[codz]
 *$py.class
+# Micrsoft temporary files
+~$*.docx
 
 # macOS system files
 **/.DS_Store
