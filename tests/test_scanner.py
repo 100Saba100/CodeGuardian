@@ -8,7 +8,8 @@ from scanner.security import scan_code_for_security
 if __name__ == "__main__":
     results = scan_code_for_security("tests/test_vulnerability.py")
     for result in results:
-        print(f"Issue: {result.issue_text}")
+        #print(result.__dict__)
+        print(f"Issue: {result.text}")
         print(f"Severity: {result.severity}")
         print(f"Confidence: {result.confidence}")
         print(f"File: {result.fname}, Line: {result.lineno}")
